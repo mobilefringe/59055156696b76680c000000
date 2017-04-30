@@ -1,7 +1,7 @@
 define([], function () {
   return [
     {
-      path:'/',
+      path:'/home',
       component: view('home')
     },
     {
@@ -9,12 +9,12 @@ define([], function () {
       component: view('stores')
     },
     {
-      path: '/404',
+      path: '/404custom',
       component: view('notfoundcomponent')
     },
     {
       path: '*',
-      redirect: '/404'
+      redirect: '/404custom'
     }
   ]
 
