@@ -7,11 +7,12 @@ require.config({
     'moment': 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min',
     'vue2-filters': 'https://cdn.jsdelivr.net/vue2-filters/0.1.8/vue2-filters.min',
     'vue': 'https://cdn.rawgit.com/edgardleal/require-vuejs/master/dist/require-vuejs.min',
-    'vuex': 'https://cdnjs.cloudflare.com/ajax/libs/vuex/2.3.1/vuex.min'
+    'vuex': 'https://cdnjs.cloudflare.com/ajax/libs/vuex/2.3.1/vuex.min',
+    'vue-froala': 'https://unpkg.com/vue-froala@2.0.0/vue-froala.es5'
   }
 });
 
-require(['Vue', 'vuex', 'vue_router', 'axios', 'jquery', 'vue2-filters', 'routes'], function (Vue, Vuex, VueRouter, axios, $, Vue2Filters, AppRoutes) {
+require(['Vue', 'vuex', 'vue_router', 'axios', 'jquery', 'vue2-filters', 'routes', 'vue-froala'], function (Vue, Vuex, VueRouter, axios, $, Vue2Filters, AppRoutes, VueFroala) {
   Vue.use(Vuex);
   Vue.use(VueRouter);
   Vue.use(Vue2Filters);
