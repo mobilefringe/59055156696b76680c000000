@@ -12,7 +12,7 @@ require.config({
   }
 });
 
-require(['Vue', 'vuex', 'vue_router', 'axios', 'jquery', 'vue2-filters', 'routes', 'vue-froala'], function (Vue, Vuex, VueRouter, axios, $, Vue2Filters, AppRoutes, VueFroala) {
+require(['Vue', 'vuex', 'vue_router', 'axios', 'jquery', 'vue2-filters', 'routes'], function (Vue, Vuex, VueRouter, axios, $, Vue2Filters, AppRoutes) {
   Vue.use(Vuex);
   Vue.use(VueRouter);
   Vue.use(Vue2Filters);
