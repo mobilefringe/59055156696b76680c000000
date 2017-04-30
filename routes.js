@@ -26,5 +26,5 @@ define([], function () {
     return function(resolve) {
       require(['vue!' + name + '.vue'], resolve);
     }
-  };
+  }
 });
