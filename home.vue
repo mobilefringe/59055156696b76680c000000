@@ -1,9 +1,11 @@
 <template>
+  <div>
   <div class="row">
     <div class="large-6 columns">
       <h1>{{title}}</h1>
       <p>{{description}}</p>
     </div>
+  </div>
   </div>
 </template>
 
