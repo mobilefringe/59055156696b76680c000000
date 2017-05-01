@@ -1,7 +1,7 @@
 define([], function () {
   return [
     {
-      path:'/home',
+      path:'/',
       component: view('home')
     },
     {
