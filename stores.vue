@@ -2,11 +2,12 @@
   <div class="container"> <!-- for some reason if you do not put an outer container div this component template will not render -->
     <div class="columns large-3 medium-6" v-for="store in stores">
       <div class="card">
-        <div class="card-divider" v-html="store.name">
+        <div class="card-divider">
+            ${store.name}
         </div>
         <a :href="store.image_url" target="_blank"><img :src="store.image_url"></a>
         <div class="card-section">
-          <p v-html="store.description"></p>
+          <p>${store.description}</p>
         </div>
       </div>
     </div>
