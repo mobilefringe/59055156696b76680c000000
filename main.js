@@ -65,7 +65,7 @@ require(['Vue', 'vuex', 'vue_router', 'axios', 'jquery', 'vue2-filters', 'routes
     data: {
 
     },
-    delimiters: ['<<', '>>'],
+    delimiters: ['${', '}'],
     mounted() {
       this.$store.dispatch('LOAD_MALL_DATA');
     },
