@@ -1,6 +1,5 @@
 <template>
-  <div>
-    {{text}}
+  <div v-bind="text">
   </div>
 </template>
 
