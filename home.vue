@@ -2,8 +2,8 @@
   <div>
   <div class="row">
     <div class="large-6 columns">
-      <h1>{{title}}</h1>
-      <p>{{description}}</p>
+      <h1 v-bind="title"></h1>
+      <p v-bind="description"></p>
     </div>
   </div>
   </div>
